@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import logo from "../src/assets/MT-BRANCO.png";
+
 //React Icons
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { SiGooglemaps } from "react-icons/si";
@@ -32,7 +34,7 @@ function App() {
     <div className='w-full min-h-screen bg-black'>
       <header className=" bg-black flex items-center shadow-slate-900 opacity-95 drop-shadow-lg fixed w-full z-20 md:px-10">
         <div className="flex items-center w-full h-20 px-0">
-          <img data-aos="fade-right" className="object-cover h-full" src="./src/assets/MT-BRANCO.png" alt="logo-mt" />
+          <img data-aos="fade-right" className="object-cover h-full" src={logo} alt="logo-mt" />
           <p data-aos="fade-down" className="text-white text-2xl font-medium font-pirata xl:text-3xl">Mag Tattoo Studio</p>
         </div>
         <div
@@ -54,7 +56,7 @@ function App() {
           {/* <Modal/> */}
           {isModalOpen && (
             <div className="w-full flex md:hidden fixed z-20 ">
-              <ul data-aos="fade-down" className="bg-bg-gray-first bg-opacity-95 w-32 rounded-b-md pr-4 py-3 z-10 absolute top-20 right-0 flex flex-col gap-5 justify-between text-right text-base font-medium text-white">
+              <ul data-aos="fade-down" className="bg-black bg-opacity-95 w-32 rounded-b-md pr-4 py-3 z-10 absolute top-20 right-0 flex flex-col gap-5 justify-between text-right text-base font-medium text-white">
                 <ScrollLink to="home" smooth={true} duration={1000}><li className="cursor-pointer active:text-black">Inicio</li></ScrollLink>
                 <ScrollLink to="about-us" smooth={true} duration={1000}><li className="cursor-pointer active:text-black">Sobre nós</li></ScrollLink>
                 <ScrollLink to="works" smooth={true} duration={1000}><li className="cursor-pointer active:text-black">Trabalhos</li></ScrollLink>
