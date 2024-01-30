@@ -32,7 +32,7 @@ function App() {
     <div className='w-full min-h-screen bg-black'>
       <header className=" bg-black flex items-center shadow-slate-900 opacity-95 drop-shadow-lg fixed w-full z-20 md:px-10">
         <div className="flex items-center w-full h-20 px-0">
-          <img data-aos="fade-right" className="object-cover h-full" src="src/assets/MT-BRANCO.png" alt="" />
+          <img data-aos="fade-right" className="object-cover h-full" src="./src/assets/MT-BRANCO.png" alt="logo-mt" />
           <p data-aos="fade-down" className="text-white text-2xl font-medium font-pirata xl:text-3xl">Mag Tattoo Studio</p>
         </div>
         <div
@@ -69,7 +69,7 @@ function App() {
           <section className="flex flex-col items-center  w-full h-[34rem] bg-banner-main bg-no-repeat bg-cover bg-center lg:flex-row lg:justify-between">
             <div className=" max-w-[16rem] flex items-start justify-start overflow-hidden lg:max-w-[30rem] lg:ml-16">
               <img
-                src="./src/assets/logo.png" alt=""
+                src="./src/assets/logo.png" alt="logo-mag-tattoo"
                 className="opacity-80 "
               />
             </div>
@@ -94,7 +94,7 @@ function App() {
             <h1 className="text-white pb-2 text-2xl font-pirata md:text-4xl">Sobre Nós</h1>
             <div className="flex flex-col gap-4 md:flex-row md:items-center xl:gap-9">
               <div className="flex items-center justify-center">
-                <img className="shadow-sm shadow-black rounded-xl min-w-72 max-w-[42rem] object-cover max-lg:max-w-[30rem]" src="./src/assets/about-img.jpg" alt="" />
+                <img className="shadow-sm shadow-black rounded-xl min-w-72 max-w-[42rem] object-cover max-lg:max-w-[30rem]" src="./src/assets/about-img.jpg" alt="studio" />
               </div>
               <div className=" text-white text-base md:text-lg lg:text-2xl">
                 <p>O estudio MagTattoo nasceu no ano de 2019 e vem até hoje entregando conforto, qualidade e profissionalismo aos nossos clientes. <span>&quot; Citação &quot; Marcio Alves - Tatuador e Idealizador do Estudio MagTattoo</span> </p>
