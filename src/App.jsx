@@ -2,7 +2,10 @@ import { useState } from "react";
 
 import logoMT from "../src/assets/MT-BRANCO.png";
 import logoMain from "../src/assets/logo.png";
-
+import aboutImg from "../src/assets/about-img.jpg";
+import belchior1 from "../src/assets/belchior-tattoo.jpg";
+import belchior2 from "../src/assets/belchior2";
+import belchior3 from "../src/assets/belchior3";
 
 
 //React Icons
@@ -99,7 +102,7 @@ function App() {
             <h1 className="text-white pb-2 text-2xl font-pirata md:text-4xl">Sobre Nós</h1>
             <div className="flex flex-col gap-4 md:flex-row md:items-center xl:gap-9">
               <div className="flex items-center justify-center">
-                <img className="shadow-sm shadow-black rounded-xl min-w-72 max-w-[42rem] object-cover max-lg:max-w-[30rem]" src="./src/assets/about-img.jpg" alt="studio" />
+                <img className="shadow-sm shadow-black rounded-xl min-w-72 max-w-[42rem] object-cover max-lg:max-w-[30rem]" src={aboutImg} alt="studio" />
               </div>
               <div className=" text-white text-base md:text-lg lg:text-2xl">
                 <p>O estudio MagTattoo nasceu no ano de 2019 e vem até hoje entregando conforto, qualidade e profissionalismo aos nossos clientes. <span>&quot; Citação &quot; Marcio Alves - Tatuador e Idealizador do Estudio MagTattoo</span> </p>
@@ -114,59 +117,23 @@ function App() {
             <h1 className="text-white pb-4 text-2xl font-pirata md:text-4xl">Trabalhos</h1>
             <div className="flex flex-col items-center justify-start flex-wrap gap-8 md:flex-row max-personalizado:justify-center">
               <Works
-                img1="./src/assets/belchior-tattoo.jpg"
-                img2="./src/assets/belchior2.jpg"
-                img3="./src/assets/belchior3.jpg"
+                img1={belchior1}
+                img2={belchior2}
+                img3={belchior3}
                 text="Tattoo em Blackwork que mistura arte de silhueta com caligrafia. Uma homenagem ao cantor e compositor brasileiro Belchior, &quot;Amar e mudar as coisas me interessa mais!&quot;"
               />
 
               <Works
-                img1="./src/assets/belchior-tattoo.jpg"
-                img2="./src/assets/belchior2.jpg"
-                img3="./src/assets/belchior3.jpg"
+                img1={belchior1}
+                img2={belchior2}
+                img3={belchior3}
                 text="Tattoo em Blackwork que mistura arte de silhueta com caligrafia. Uma homenagem ao cantor e compositor brasileiro Belchior, &quot;Amar e mudar as coisas me interessa mais!&quot;"
               />
 
               <Works
-                img1="./src/assets/belchior-tattoo.jpg"
-                img2="./src/assets/belchior2.jpg"
-                img3="./src/assets/belchior3.jpg"
-                text="Tattoo em Blackwork que mistura arte de silhueta com caligrafia. Uma homenagem ao cantor e compositor brasileiro Belchior, &quot;Amar e mudar as coisas me interessa mais!&quot;"
-              />
-              <Works
-                img1="./src/assets/belchior-tattoo.jpg"
-                img2="./src/assets/belchior2.jpg"
-                img3="./src/assets/belchior3.jpg"
-                text="Tattoo em Blackwork que mistura arte de silhueta com caligrafia. Uma homenagem ao cantor e compositor brasileiro Belchior, &quot;Amar e mudar as coisas me interessa mais!&quot;"
-              />
-              <Works
-                img1="./src/assets/belchior-tattoo.jpg"
-                img2="./src/assets/belchior2.jpg"
-                img3="./src/assets/belchior3.jpg"
-                text="Tattoo em Blackwork que mistura arte de silhueta com caligrafia. Uma homenagem ao cantor e compositor brasileiro Belchior, &quot;Amar e mudar as coisas me interessa mais!&quot;"
-              />
-              <Works
-                img1="./src/assets/belchior-tattoo.jpg"
-                img2="./src/assets/belchior2.jpg"
-                img3="./src/assets/belchior3.jpg"
-                text="Tattoo em Blackwork que mistura arte de silhueta com caligrafia. Uma homenagem ao cantor e compositor brasileiro Belchior, &quot;Amar e mudar as coisas me interessa mais!&quot;"
-              />
-              <Works
-                img1="./src/assets/belchior-tattoo.jpg"
-                img2="./src/assets/belchior2.jpg"
-                img3="./src/assets/belchior3.jpg"
-                text="Tattoo em Blackwork que mistura arte de silhueta com caligrafia. Uma homenagem ao cantor e compositor brasileiro Belchior, &quot;Amar e mudar as coisas me interessa mais!&quot;"
-              />
-              <Works
-                img1="./src/assets/belchior-tattoo.jpg"
-                img2="./src/assets/belchior2.jpg"
-                img3="./src/assets/belchior3.jpg"
-                text="Tattoo em Blackwork que mistura arte de silhueta com caligrafia. Uma homenagem ao cantor e compositor brasileiro Belchior, &quot;Amar e mudar as coisas me interessa mais!&quot;"
-              />
-              <Works
-                img1="./src/assets/belchior-tattoo.jpg"
-                img2="./src/assets/belchior2.jpg"
-                img3="./src/assets/belchior3.jpg"
+                img1={belchior1}
+                img2={belchior2}
+                img3={belchior3}
                 text="Tattoo em Blackwork que mistura arte de silhueta com caligrafia. Uma homenagem ao cantor e compositor brasileiro Belchior, &quot;Amar e mudar as coisas me interessa mais!&quot;"
               />
             </div>
