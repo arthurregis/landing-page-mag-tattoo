@@ -32,7 +32,7 @@ function App() {
     <div className='w-full min-h-screen bg-black'>
       <header className=" bg-black flex items-center shadow-slate-900 opacity-95 drop-shadow-lg fixed w-full z-20 md:px-10">
         <div className="flex items-center w-full h-20 px-0">
-          <img data-aos="fade-right" className="object-cover h-full" src="./src/assets/MT-BRANCO.png" alt="" />
+          <img data-aos="fade-right" className="object-cover h-full" src="src/assets/MT-BRANCO.png" alt="" />
           <p data-aos="fade-down" className="text-white text-2xl font-medium font-pirata xl:text-3xl">Mag Tattoo Studio</p>
         </div>
         <div
