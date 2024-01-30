@@ -2,10 +2,11 @@ import { useState } from "react";
 
 import logoMT from "../src/assets/MT-BRANCO.png";
 import logoMain from "../src/assets/logo.png";
+import bannerMain from "../src/assets/bg-main.jpg"
 import aboutImg from "../src/assets/about-img.jpg";
 import belchior1 from "../src/assets/belchior-tattoo.jpg";
-import belchior2 from "../src/assets/belchior2";
-import belchior3 from "../src/assets/belchior3";
+import belchior2 from "../src/assets/belchior2.jpg";
+import belchior3 from "../src/assets/belchior3.jpg";
 
 
 //React Icons
@@ -35,6 +36,9 @@ function App() {
     setModalOpen(!isModalOpen);
   };
 
+  const bgBanner = {
+    backgroundImage: `url(${bannerMain})`,
+  }
 
   return (
     <div className='w-full min-h-screen bg-black'>
@@ -74,7 +78,10 @@ function App() {
         {/* banner main */}
         <Element name="home">
           <div className="w-full h-20"></div>
-          <section className="flex flex-col items-center  w-full h-[34rem] bg-banner-main bg-no-repeat bg-cover bg-center lg:flex-row lg:justify-between">
+          <section 
+            className="flex flex-col items-center  w-full h-[34rem] bg-no-repeat bg-cover bg-center lg:flex-row lg:justify-between"
+            style={bgBanner}
+          >
             <div className=" max-w-[16rem] flex items-start justify-start overflow-hidden lg:max-w-[30rem] lg:ml-16">
               <img
                 src={logoMain} alt="logo-mag-tattoo"

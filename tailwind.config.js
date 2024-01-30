@@ -1,5 +1,3 @@
-import "./src/assets"
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -14,8 +12,8 @@ export default {
       },
 
       backgroundImage: {
-        "banner-main": "URL('../src/assets/bg-main.jpg')",
-        "img-main": "URL('../src/assets/bg-site.jpg')"
+        "banner-main": "URL('./src/assets/bg-main.jpg')",
+        "img-main": "URL('./src/assets/bg-site.jpg')"
       },
 
       screens: {
