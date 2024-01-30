@@ -1,6 +1,9 @@
 import { useState } from "react";
 
-import logo from "../src/assets/MT-BRANCO.png";
+import logoMT from "../src/assets/MT-BRANCO.png";
+import logoMain from "../src/assets/logo.png";
+
+
 
 //React Icons
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
@@ -34,7 +37,7 @@ function App() {
     <div className='w-full min-h-screen bg-black'>
       <header className=" bg-black flex items-center shadow-slate-900 opacity-95 drop-shadow-lg fixed w-full z-20 md:px-10">
         <div className="flex items-center w-full h-20 px-0">
-          <img data-aos="fade-right" className="object-cover h-full" src={logo} alt="logo-mt" />
+          <img data-aos="fade-right" className="object-cover h-full" src={logoMT} alt="logo-mt" />
           <p data-aos="fade-down" className="text-white text-2xl font-medium font-pirata xl:text-3xl">Mag Tattoo Studio</p>
         </div>
         <div
@@ -71,7 +74,7 @@ function App() {
           <section className="flex flex-col items-center  w-full h-[34rem] bg-banner-main bg-no-repeat bg-cover bg-center lg:flex-row lg:justify-between">
             <div className=" max-w-[16rem] flex items-start justify-start overflow-hidden lg:max-w-[30rem] lg:ml-16">
               <img
-                src="./src/assets/logo.png" alt="logo-mag-tattoo"
+                src={logoMain} alt="logo-mag-tattoo"
                 className="opacity-80 "
               />
             </div>
