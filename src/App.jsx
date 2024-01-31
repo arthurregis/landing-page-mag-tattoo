@@ -95,7 +95,7 @@ function App() {
               <div className="flex items-center justify-between w-[11.6rem] bg-black hover:scale-105 duration-300 active:bg-bg-gray-second opacity-90 rounded-xl p-3 cursor-pointer lg:hover:bg-black lg:active:bg-bg-gray-second">
                 <button
                   className="text-white text-left font-semibold">
-                  <a href="#">Fazer Orçamento</a>
+                  <a href="https://api.whatsapp.com/send?phone=+55 85 9239-3243&text=Oi,%20tudo%20bem?%20gostaria%20de%20um%20orçamento!">Fazer Orçamento</a>
                 </button>
                 <FaWhatsapp className="w-6 h-6" color="white" />
               </div>
