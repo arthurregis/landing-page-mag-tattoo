@@ -82,13 +82,13 @@ function App() {
             className="flex flex-col items-center  w-full h-[34rem] bg-no-repeat bg-cover bg-center lg:flex-row lg:justify-between"
             style={bgBanner}
           >
-            <div className=" max-w-[16rem] flex items-start justify-start overflow-hidden lg:max-w-[30rem] lg:ml-16">
+            <div className=" max-w-[16rem] flex items-start justify-start pb-8 overflow-hidden lg:max-w-[30rem] lg:ml-16">
               <img
                 src={logoMain} alt="logo-mag-tattoo"
                 className="opacity-80 "
               />
             </div>
-            <div className="flex flex-col items-center gap-20 md:gap-16 lg:pr-24 lg:gap-24 xl:pr-40 xl:gap-32">
+            <div className="flex flex-col items-center gap-12 md:gap-16 lg:pr-24 lg:gap-24 xl:pr-40 xl:gap-32">
               <div className="text-center font-bold text-4xl md:w-96 lg:text-4xl lg:w-[30rem] xl:text-5xl xl:w-[35rem]">
                 <p className="font-pirata">Sua pele, em minhas mãos, vira obra de arte!</p>
               </div>
