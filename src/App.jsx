@@ -95,7 +95,7 @@ function App() {
               <div className="flex items-center justify-between w-[11.6rem] bg-black hover:scale-105 duration-300 active:bg-bg-gray-second opacity-90 rounded-xl p-3 cursor-pointer lg:hover:bg-black lg:active:bg-bg-gray-second">
                 <button
                   className="text-white text-left font-semibold">
-                  <a href="https://api.whatsapp.com/send?phone=+55 85 9239-3243&text=Oi,%20tudo%20bem?%20gostaria%20de%20um%20orçamento!">Fazer Orçamento</a>
+                  <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send?phone=+55 85 9239-3243&text=Oi,%20tudo%20bem?%20gostaria%20de%20um%20orçamento!">Fazer Orçamento</a>
                 </button>
                 <FaWhatsapp className="w-6 h-6" color="white" />
               </div>
@@ -153,7 +153,7 @@ function App() {
           <section className="pt-6 bg-gradient-to-t from-bg-gray-first to-black">
             <h1 className="text-white pb-2 text-2xl font-pirata px-6 md:text-4xl">Contatos</h1>
             <div className="flex flex-col gap-2 px-6">
-              <label className="text-white"><a className="inline-flex gap-1.5" target="_blank" rel="noreferrer" href="#"><FaWhatsapp className="w-6 h-6" color="white" />+55 85 99239-3243 </a></label>
+              <label className="text-white"><a className="inline-flex gap-1.5" target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send?phone=+55 85 9239-3243&text=Oi,%20tudo%20bem?%20gostaria%20de%20um%20orçamento!"><FaWhatsapp className="w-6 h-6" color="white" />+55 85 99239-3243 </a></label>
 
               <label className="text-white"><a className="inline-flex gap-1.5" target="_blank" rel="noreferrer" href="https://www.instagram.com/mag_tattoo.studio/"><FaInstagram className="w-6 h-6" color="white" /> mag_tattoo.studio</a></label>
 
